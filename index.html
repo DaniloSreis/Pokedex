@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <main>
+      <ul class="camera">
+        <li class="circle-1"></li>
+        <li class="circle-2"></li>
+        <li class="circle-3"></li>
+        <li class="circle-4"></li>
+      </ul>
+
+      <div class="screen-pokedex">
+        <div class="container-search">
+          <input id="input" type="text" placeholder="id pokemon" />
+          <button class="search-pokemon">Procurar</button>
+        </div>
+        <div class="container-pokemon">
+          <ul class="statistics">
+            <li><img id="imgPokemon" src="" /></li>
+            <li id="namePokemon"></li>
+            <li>Type: <span id="type"></span></li>
+            <li>HP: <span id="hp"></span></li>
+            <li>Speed: <span id="speed"></span></li>
+            <li>Attack: <span id="attack"></span></li>
+            <li>Defense: <span id="defense"></span></li>
+            <li>Special-attack: <span id="specialAttack"></span></li>
+            <li>Special-Defense: <span id="specialDefense"></span></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
