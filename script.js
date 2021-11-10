@@ -32,6 +32,4 @@ btn.addEventListener('click', () => {
   statisticsPokemon.classList.add('active')
 
   getPokemonId()
-  searchPokemon()
-  getStatistics()
 })
